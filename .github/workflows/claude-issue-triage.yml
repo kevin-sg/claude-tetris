@@ -40,4 +40,4 @@ jobs:
             No modifiques código ni abras pull requests, esta tarea es solo de triage y diagnóstico.
 
           claude_args: |
-            --allowed-tools "Bash(gh issue edit:*),Bash(gh issue comment:*),Bash(gh label list:*)"
+            --allowed-tools "Read,Glob,Grep,Bash(gh issue edit:*),Bash(gh issue comment:*),Bash(gh label list:*)"
