@@ -37,6 +37,8 @@ jobs:
                - **Próximos pasos sugeridos**: pasos concretos que el equipo podría seguir para implementar la corrección o feature.
             4. Si el issue no tiene suficiente información para diagnosticar, indícalo explícitamente en el comentario y pide los datos faltantes (pasos para reproducir, navegador, captura, etc.) en lugar de inventar una causa.
 
+            El comentario que publiques debe estar escrito en formato Markdown válido y bien renderizable por GitHub (encabezados con `##`/`###`, listas con `-`, bloques de código con ``` cuando incluyas fragmentos de código, **negritas** para resaltar términos clave, etc.).
+
             No modifiques código ni abras pull requests, esta tarea es solo de triage y diagnóstico.
 
           claude_args: |
